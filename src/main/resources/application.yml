@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: pubsub-emulator-example
+    cloud:
+        gcp:
+            pubsub:
+                emulator-host: localhost:8085
+                project-id: some-project
+                topic-name: some-topic
+                subscription-name: some-subscription
